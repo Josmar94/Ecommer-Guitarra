@@ -1,0 +1,50 @@
+$negro: #262626;
+$blanco: #FFF;
+$naranja: #e99401;
+
+//Reescribir variables
+$primary: $naranja;
+$white: $blanco;
+$dark: $negro;
+$headings-color: $primary;
+$link-hover-color: $white;
+
+//tipografia
+$fuentes-headings: 'Outfit', sans-serif;
+$fuentes-textos: 'Outfit', sans-serif;
+
+//reescribir tipografia
+$headings-font-family: $fuentes-headings;
+$font-family-base: $fuentes-textos;
+$headings-font-weight: 900;
+$h1-font-size: 4.4rem;
+$h2-font-size: 3.6rem;
+$h3-font-size: 2.6rem;
+
+
+//Reescribiendo Botones
+$btn-font-weight: 900;
+$btn-border-radius: 0;
+
+//links
+$link-color: $white;
+$link-decoration: none;
+
+//Reescribir card
+$card-border-radius: 0;
+$card-border-width: 0;
+
+//reescribiendo input
+$input-border-color: $dark;
+$input-border-radius: 1rem;
+
+
+.fw-black{
+    font-weight: 900;
+}
+
+
+
+
+// Importar Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
